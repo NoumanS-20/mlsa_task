@@ -1,0 +1,104 @@
+img{
+  display:block;
+  margin:auto;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #000000;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .announcement-card {
+    margin: auto;
+    text-align:center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    padding: 1em;
+    width: 30%;
+  }
+  
+  .leadership-team {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #downloads a {
+    display: block;
+    margin-top: 1em;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #contact-details {
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  
